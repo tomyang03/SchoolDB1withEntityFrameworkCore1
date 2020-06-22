@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Create.cshtml.cs" />
+    <Compile Remove="Models\Delete.cshtml.cs" />
+    <Compile Remove="Models\Details.cshtml.cs" />
+    <Compile Remove="Models\Edit.cshtml.cs" />
+    <Compile Remove="Models\ErrorViewModel.cs" />
+    <Compile Remove="Models\Index.cshtml.cs" />
+    <Compile Remove="Models\Teacher.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Models\Create.cshtml" />
+    <Content Remove="Models\Delete.cshtml" />
+    <Content Remove="Models\Details.cshtml" />
+    <Content Remove="Models\Edit.cshtml" />
+    <Content Remove="Models\Index.cshtml" />
+    <Content Remove="Views\Shared\Error.cshtml" />
+    <Content Remove="Views\Shared\_CookieConsentPartial.cshtml" />
+    <Content Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<SchoolDB1withEntityFrameworkCore.Models.TeacherViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>
+    Teacher List
+</h2>
+
+<p>
+    <a asp-action="Create">Add New Teacher</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <form id="TeacherList" asp-action="Delete" method="post" asp-route-id="@item.Id">
+                    <button asp-action="Edit" asp-route-id="@item.Id">Edit</button>
+                    <button>Delete</button>
+                </form>
+                @* does not work Hyperlinks are Get request by default , must use form
+            with method post<a asp-action="Delete" method="post" asp-route-id="@item.Id">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
