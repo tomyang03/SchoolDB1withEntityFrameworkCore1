@@ -1,0 +1,36 @@
+.elementor-52310 .elementor-element.elementor-element-ea7aff5{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-52310 .elementor-element.elementor-element-274969e6 > .elementor-element-populated{margin:0px 0px 0px -8px;}.elementor-52310 .elementor-element.elementor-element-6eb1d2d{text-align:left;}.elementor-52310 .elementor-element.elementor-element-6eb1d2d.elementor-widget-heading .elementor-heading-title{color:#4A4A4A;}.elementor-52310 .elementor-element.elementor-element-6eb1d2d .elementor-heading-title{font-family:"Open Sans", Sans-serif;font-size:18px;font-weight:700;text-transform:none;font-style:normal;text-decoration:none;letter-spacing:0.01px;}.elementor-52310 .elementor-element.elementor-element-6eb1d2d > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group{padding-right:calc( 10px/2 );padding-left:calc( 10px/2 );margin-bottom:10px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-form-fields-wrapper{margin-left:calc( -10px/2 );margin-right:calc( -10px/2 );margin-bottom:-10px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group.recaptcha_v3-bottomleft, .elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group.recaptcha_v3-bottomright{margin-bottom:0;}body.rtl .elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-labels-inline .elementor-field-group > label{padding-left:0px;}body:not(.rtl) .elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-labels-inline .elementor-field-group > label{padding-right:0px;}body .elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-labels-above .elementor-field-group > label{padding-bottom:0px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-type-html{padding-bottom:0px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group .elementor-field{color:#9a9a9a;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group .elementor-field, .elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-subgroup label{font-family:"Open Sans", Sans-serif;font-size:16px;letter-spacing:0.01px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group:not(.elementor-field-type-upload) .elementor-field:not(.elementor-select-wrapper){background-color:#ffffff;border-color:#b3b3b3;border-width:1px 1px 1px 1px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group .elementor-select-wrapper select{background-color:#ffffff;border-color:#b3b3b3;border-width:1px 1px 1px 1px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-field-group .elementor-select-wrapper::before{color:#b3b3b3;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-button{background-color:#0073dc;color:#ffffff;font-family:"Open Sans", Sans-serif;font-size:16px;font-weight:500;letter-spacing:0.01px;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 .elementor-button svg{fill:#ffffff;}.elementor-52310 .elementor-element.elementor-element-19b0b5e1 > .elementor-widget-container{margin:0px -18px 0px 0px;padding:0px 0px 0px 0px;}.elementor-52310 .elementor-element.elementor-element-16543874 > .elementor-widget-container{margin:0px -18px 0px 0px;}/* Start custom CSS for form, class: .elementor-element-19b0b5e1 */#email-field form {
+    display: block;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-ea7aff5 */.RSSFeed{
+     cursor: pointer;
+}
+.custom-element-button{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.01px;
+    color: #ff7e25;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    width: 100%;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    transition: all 0.3s;
+    padding: 10px 20px;
+ border-radius: 3px;
+       
+}
+.rss-btn-text {
+    padding-right: 8px;
+}
+#email-field .elementor-button{
+    padding: 0;
+}
+
+@media  (max-width:1024px){
+ #email-field .elementor-field-type-email {
+    margin-bottom: 20px;
+} 
+}/* End custom CSS */

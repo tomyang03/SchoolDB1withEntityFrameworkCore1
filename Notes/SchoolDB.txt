@@ -1,0 +1,32 @@
+What is Entity Framework ?
+
+Official Definition: “Entity Framework is an object-relational mapper (O/RM) that enables .NET developers to work with a database using .NET objects.
+
+
+most likely the DBContext and entity classes (model) in this Project were created using
+the scaffold command which is the same process as reverse engineering
+with EF Power Tools.
+
+Once you loose the table , the DBContext no longer work. You cannot just
+recreate the table and expect the DBContext to connect to it. It does not
+work that way.
+
+You will have to recreate the POCO classes and DBContext
+
+through the scaffold  command or reverse engineer it.
+
+Scaffold-DbContext “Server=ABCSERVER;Database=Inventory;Integrated Security=True” Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+1. 
+open chrome browser:
+install EFCore Power Tools
+
+2. Right click on Project
+
+3. Reverse Engineer
+
+4. follow screenshot
+
+
+5. rename model namespace

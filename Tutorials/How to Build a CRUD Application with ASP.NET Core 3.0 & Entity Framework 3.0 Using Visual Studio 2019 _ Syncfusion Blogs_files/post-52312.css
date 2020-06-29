@@ -1,0 +1,15 @@
+.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.56 * 100% );}.elementor-52312 .elementor-element.elementor-element-67860909:after{content:"0.56";position:absolute;color:transparent;}.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__thumbnail__link{width:35%;}.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-posts-container{grid-column-gap:10px;grid-row-gap:15px;}.elementor-msie .elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post{padding-right:calc( 10px/2 );padding-left:calc( 10px/2 );padding-bottom:15px;}.elementor-msie .elementor-52312 .elementor-element.elementor-element-67860909 .elementor-posts-container{margin-left:calc( -10px/2 );margin-right:calc( -10px/2 );}.elementor-52312 .elementor-element.elementor-element-67860909.elementor-posts--thumbnail-left .elementor-post__thumbnail__link{margin-right:0px;}.elementor-52312 .elementor-element.elementor-element-67860909.elementor-posts--thumbnail-right .elementor-post__thumbnail__link{margin-left:0px;}.elementor-52312 .elementor-element.elementor-element-67860909.elementor-posts--thumbnail-top .elementor-post__thumbnail__link{margin-bottom:0px;}.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__thumbnail img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__title, .elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__title a{color:#191919;font-family:"Open Sans", Sans-serif;font-size:15px;font-weight:400;text-transform:none;font-style:normal;text-decoration:none;line-height:18px;letter-spacing:0.21px;}.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__title{margin-bottom:8px;}@media(max-width:767px){.elementor-52312 .elementor-element.elementor-element-67860909 .elementor-post__thumbnail__link{width:27%;}}/* Start custom CSS for section, class: .elementor-element-4488a5de */@media(min-width:125px) {
+    #popular-post-template .post img {
+    margin: 0px auto 5px auto;
+}
+}
+#popular-post-template .elementor-post__text{
+    margin-left: 15px;
+}
+#popular-post-template .elementor-post__thumbnail{
+    overflow: visible;
+}
+#popular-post-template .elementor-post__title a {
+    vertical-align: -webkit-baseline-middle;
+     /*opacity: 1 !important;*/
+}/* End custom CSS */
